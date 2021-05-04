@@ -1,0 +1,9 @@
+git branch branch4567890
+git checkout branch4567890
+git checkout -a -m "branch4567890"
+git checkout master
+git merge branch1234567 -m "merge with branch1234567"
+git merge branch4567890 -m "merge with branch4567890"
+
+При слиянии с веткой branch4567890 конфликта не было.
+При слиянии с веткой branch1234567 конфликт был.

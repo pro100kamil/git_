@@ -1,0 +1,23 @@
+mkdir git_lab1_lesson2
+cd git_lab1_lesson2
+git clone https://github.com/YandexLyceum/human.git
+git branch -a
+cat human.txt
+
+git branch boots -f origin/boots
+git branch buttons -f origin/buttons
+git branch demo -f origin/demo
+git branch hat -f origin/hat
+
+git diff master boots
+git diff master buttons
+git diff master demo
+git diff master hat
+
+git checkout -b "boots_buttons"
+git merge boots -m "merge with boots"
+git merge buttons -m "merge with buttons"
+
+Конфликты не возникли, потому что не было перекрываний.
+
+git checkout master

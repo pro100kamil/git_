@@ -1,0 +1,16 @@
+git merge hat -m "merge with hat"
+git merge boots_buttons -m "merge with boots_buttons"
+
+ветки master и demo отличаются первой строчкой в README.
+
+в ветке master всего 10 коммитов:
+1) init
+2) heat added
+3) boots
+4) README added
+5) dots
+6) fix readme
+7) Merge remote-tracking branch 'origin/boots' into boots_buttons
+8) Merge remote-tracking branch 'origin/buttons' into boots_buttons
+9) Merge remote-tracking branch 'origin/hat'
+10) Merge remote-tracking branch '1/boots_buttons'
